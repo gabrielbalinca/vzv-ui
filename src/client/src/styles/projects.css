@@ -1,0 +1,91 @@
+.projectsPage {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.searchBar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.projectsList {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filterProjects {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 25%;
+    height: 100%;
+}
+
+.projects {
+    box-sizing: border-box;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.filterProjects,
+.projects {
+    border: 1px solid rgb(255, 255, 255, 1);
+}
+
+.projectCard {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.1);
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.projectCard img {
+    width: 150px;
+    height: 150px;
+}
+
+.filterProjects {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBar {
+    width: 75%;
+}
+.searchBar button {
+    color: white;
+    width: 150px;
+}
+
+.searchBar .dropdown button {
+    margin-left: 5px;
+}
+
+.searchBar .dropdown a {
+    cursor: default;
+}

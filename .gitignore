@@ -1,17 +1,16 @@
 # Logs
-src/logs
-src/*.log
-src/npm-debug.log*
-src/yarn-debug.log*
-src/yarn-error.log*
-src/pnpm-debug.log*
-src/lerna-debug.log*
+src/client/logs
+src/client/*.log
+src/client/npm-debug.log*
+src/client/yarn-debug.log*
+src/client/yarn-error.log*
+src/client/pnpm-debug.log*
+src/client/lerna-debug.log*
 
-# Packages/modules
-src/node_modules
-src/dist
-src/dist-ssr
-src/*.local
+src/client/node_modules
+src/client/dist
+src/client/dist-ssr
+src/client/*.local
 
 # Editor directories and files
 .vscode/*
