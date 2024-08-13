@@ -12,7 +12,6 @@ const Projects = () => {
         e.preventDefault();
         setSearchWord(e.currentTarget.value);
     };
-
     return (
         <>
             <section className='projectsPage'>

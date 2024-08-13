@@ -59,9 +59,6 @@ const SearchBar = (search: Props) => {
                                                 onClick={() => {
                                                     setSearchCategory(item);
                                                     search.onSelectItem(item);
-                                                    console.log(
-                                                        search.onSelectItem
-                                                    );
                                                 }}
                                             >
                                                 {item}
